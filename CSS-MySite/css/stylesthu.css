@@ -45,6 +45,7 @@
    color: #bccfcf;
    font-weight: bold;
    padding-bottom: 10px;
+   padding-top: 30px;
  }
 
  h3 {
@@ -106,20 +107,23 @@
    padding: 20px 0;
   }
 
- .top-container {
+ .container-fluid {
    background-color: #66BFBF;
    position: relative;
    padding-top: 100px;
+   text-align: center;
  }
 
  .middle-container {
    margin: 100px 0;
    background-color: #EAF6F6;
+   text-align: center;
  }
 
  .bottom-container {
     background-color: #66BFBF;
     padding: 50px 0 20px;
+    text-align: center;
  }
 
  .programmer {
@@ -127,7 +131,7 @@
  }
 
  .profile {
-   padding-bottom: 50px;
+   margin-bottom: 100px;
  }
 
  .intro{
@@ -158,4 +162,10 @@
 
  .btn:hover {
    background: linear-gradient(#30e3cb, #2bc4ab);
+ }
+
+ .navbar-container {
+   padding: 1% 15%;
+   background-color: #66BFBF;
+   font-size: 25px;
  }
